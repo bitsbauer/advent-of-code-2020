@@ -1,0 +1,15 @@
+{
+    "name": "bitsbauer/advent-of-code-2020-day-9",
+    "description": "Advent of Code 2020 - Day 9 Solution",
+    "type": "project",
+    "require": {
+        "symfony/console": "^5.2",
+        "ext-gmp": "*"
+    },
+    "authors": [
+        {
+            "name": "Tobias Bauer",
+            "email": "tobias.bauer@bits-bauer.de"
+        }
+    ]
+}
