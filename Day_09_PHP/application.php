@@ -11,7 +11,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\SingleCommandApplication;
 
 (new SingleCommandApplication())
-    ->setName("Day9")
+    ->setName("Day 09")
     ->addArgument('input', InputArgument::OPTIONAL, 'Specify input file, default: input.txt')
     ->addArgument('preamble', InputArgument::OPTIONAL, 'Specify preamble value, default: 25')
     ->setCode(
@@ -69,7 +69,7 @@ use Symfony\Component\Console\SingleCommandApplication;
 
             ###
 
-            $output->writeln('Advent of Code 2020 - Day 9');
+            $output->writeln('Advent of Code 2020 - Day 09');
 
             $filePath = $input->getArgument('input') ?? 'input.txt';
             $preamble = $input->getArgument('preamble') ?? '25';

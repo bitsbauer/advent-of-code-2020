@@ -1,6 +1,6 @@
 {
-    "name": "bitsbauer/advent-of-code-2020-day-6",
-    "description": "Advent of Code 2020 - Day 6 Solution",
+    "name": "bitsbauer/advent-of-code-2020-day-06",
+    "description": "Advent of Code 2020 - Day 06 Solution",
     "type": "project",
     "require": {
         "symfony/console": "^5.2"

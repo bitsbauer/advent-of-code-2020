@@ -1,10 +1,9 @@
 {
-    "name": "bitsbauer/advent-of-code-2020-day-09",
-    "description": "Advent of Code 2020 - Day 09 Solution",
+    "name": "bitsbauer/advent-of-code-2020-day-03",
+    "description": "Advent of Code 2020 - Day 03 Solution",
     "type": "project",
     "require": {
-        "symfony/console": "^5.2",
-        "ext-gmp": "*"
+        "symfony/console": "^5.2"
     },
     "authors": [
         {
