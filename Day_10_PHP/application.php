@@ -40,7 +40,6 @@ use Symfony\Component\Console\SingleCommandApplication;
             };
 
             $findPaths = static function ($lastPaths, $finalPaths, $adapters, $highestAdapter) use ( &$findPaths ): array {
-                gc_collect_cycles();
                 $currentPaths = [];
                 foreach ($lastPaths as $lastPath => $count) {
                     if($lastPath === $highestAdapter) {
