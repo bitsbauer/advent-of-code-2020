@@ -11,7 +11,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\SingleCommandApplication;
 
 (new SingleCommandApplication())
-    ->setName("Day 09")
+    ->setName("Day 10")
     ->addArgument('input', InputArgument::OPTIONAL, 'Specify input file, default: input.txt')
     ->setCode(
         function (InputInterface $input, OutputInterface $output) {

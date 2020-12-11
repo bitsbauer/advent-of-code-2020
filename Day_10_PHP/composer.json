@@ -3,6 +3,7 @@
     "description": "Advent of Code 2020 - Day 10 Solution",
     "type": "project",
     "require": {
+        "php": ">=7.3",
         "symfony/console": "^5.2",
         "ext-gmp": "*"
     },
@@ -11,10 +12,5 @@
             "name": "Tobias Bauer",
             "email": "tobias.bauer@bits-bauer.de"
         }
-    ],
-    "config": {
-        "platform": {
-            "php": "^7.3"
-        }
-    }
+    ]
 }
