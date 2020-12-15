@@ -1,0 +1,19 @@
+{
+    "name": "bitsbauer/advent-of-code-2020-day-14",
+    "description": "Advent of Code 2020 - Day 14: Docking Data",
+    "type": "project",
+    "require": {
+        "php": ">=8.0",
+        "symfony/console": "^5.2",
+        "ext-gmp": "*"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Tobias Bauer",
+            "email": "tobias.bauer@bits-bauer.de"
+        }
+    ]
+}
